@@ -1,0 +1,108 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #fff;
+  font-size: 35px;
+  align-self: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.lista-produtos {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  margin-top: 50px;
+  border-radius: 8px;
+  background-color: rgb(186, 201, 189);
+  padding: 15px;
+  border: 1px solid #707c6fbb;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+}
+
+.product-card button {
+  margin-top: 1rem;
+  padding: 0.5rem 2rem;
+  background: #218838;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.product-card button:hover {
+  opacity: 0.8;
+}
+
+.carrinho {
+  margin-top: 175px;
+  border-radius: 8px;
+  background-color: rgb(222, 241, 226);
+  padding: 20px;
+  border: 1px solid #ddd;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.carrinho ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.carrinho li {
+  margin-bottom: 10px;
+}
+
+.carrinho button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.carrinho button:hover {
+  opacity: 0.8;
+}
+
+.filtro {
+  margin-top: 30px;
+}
+
+.filtro h2 {
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.filtro input {
+  padding: 8px;
+  margin-right: 10px;
+  width: 140px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s;
+}
+
+.filtro input:focus {
+  border-color: #1c291e;
+  outline: none;
+}

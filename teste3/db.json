@@ -1,0 +1,41 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Caneta Ecológica",
+      "price": 9.99,
+      "description": "Caneta ecológica, feita com materiais sustentáveis."
+    },
+    {
+      "id": "2",
+      "name": "Creme Natural",
+      "price": 29.99,
+      "description": "Creme hidratante feito com ingredientes naturais."
+    },
+    {
+      "id": "3",
+      "name": "EcoBag",
+      "price": 19.99,
+      "description": "Linda bolsa ecológica."
+    },
+    {
+      "id": "4",
+      "name": "Copo Ecológico",
+      "price": 14.99,
+      "description": "lindo copo ecologico"
+    },
+    {
+      "id": "5",
+      "name": "Kit de sementes",
+      "price": 5.99,
+      "description": "Kit de sementes para plantar"
+    },
+    {
+      "id": "6",
+      "name": "Casa de Passarinhos",
+      "price": 100,
+      "description": "Linda casa para passarinhos"
+    }
+  ],
+  "cart": []
+}
