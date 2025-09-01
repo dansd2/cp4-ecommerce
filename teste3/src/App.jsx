@@ -262,7 +262,7 @@ import kitImg from './assets/kit.jpg';
 import cremeImg from './assets/creme.jpg';
 import casaImg from './assets/casa.jpg';
 
-// ✅ Dados dos produtos direto no código
+// ✅ Produtos definidos diretamente
 const productsData = [
   {
     id: "1",
@@ -303,7 +303,7 @@ const productsData = [
 ];
 
 function App() {
-  const [products, setProducts] = useState(productsData); // agora usa o array direto
+  const [products] = useState(productsData); // 👈 usa os produtos locais
   const [cart, setCart] = useState(() => {
     const savedCart = localStorage.getItem('cart');
     return savedCart ? JSON.parse(savedCart) : [];
@@ -320,14 +320,6 @@ function App() {
     'Kit de sementes': kitImg,
     'Casa de Passarinhos': casaImg,
   };
-
-  // ❌ REMOVIDO useEffect com fetch
-  // useEffect(() => {
-  //   fetch('/db.json')
-  //     .then((res) => res.json())
-  //     .then((data) => setProducts(data.products))
-  //     .catch((err) => console.error("Erro ao carregar JSON:", err));
-  // });
 
   useEffect(() => {
     localStorage.setItem('cart', JSON.stringify(cart));
@@ -404,4 +396,3 @@ function App() {
 }
 
 export default App;
-
