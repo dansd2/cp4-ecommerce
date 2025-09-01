@@ -296,7 +296,7 @@ const productsData = [
   {
     id: "6",
     name: "Casa de Passarinhos",
-    price: 39.99,
+    price: 100.00,
     description: "Casa ecológica para passarinhos.",
   }
 ];
