@@ -302,7 +302,7 @@ const productsData = [
 ];
 
 function App() {
-  const [products] = useState(productsData); // 👈 usa os produtos locais
+  const [products] = useState(productsData); 
   const [cart, setCart] = useState(() => {
     const savedCart = localStorage.getItem('cart');
     return savedCart ? JSON.parse(savedCart) : [];
