@@ -262,7 +262,6 @@ import kitImg from './assets/kit.jpg';
 import cremeImg from './assets/creme.jpg';
 import casaImg from './assets/casa.jpg';
 
-// ✅ Produtos definidos diretamente
 const productsData = [
   {
     id: "1",
